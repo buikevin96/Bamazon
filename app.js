@@ -28,7 +28,7 @@ var makeTable = function(){
 	})
 }
 
-// (3:04)
+// User select an option and purchase from here
 var promptCustomer = function(res) { //Takes in response object from connection.query
 	inquirer.prompt([{
 		type: 'input',
