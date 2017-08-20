@@ -1,6 +1,8 @@
 var mysql = require('mysql');
 var inquirer = require('inquirer');
 
+
+// Connect to mysql server
 var connection = mysql.createConnection({
 	host: "localhost",
 	port: 8889,
